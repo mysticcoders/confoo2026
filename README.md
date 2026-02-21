@@ -30,13 +30,13 @@ A terminal UI app for browsing the [ConFoo 2026](https://confoo.ca/en/2026) conf
 Install globally so the `confoo` command is available everywhere:
 
 ```bash
-uv tool install git+<repo-url>
+uv tool install git@github.com:mysticcoders/confoo2026.git
 ```
 
 Or from a local checkout:
 
 ```bash
-git clone <repo-url>
+git clone git@github.com:mysticcoders/confoo2026.git
 cd confoo2026
 uv tool install .
 ```
@@ -62,7 +62,7 @@ uv tool uninstall confoo2026
 ### For development
 
 ```bash
-git clone <repo-url>
+git clone git@github.com:mysticcoders/confoo2026.git
 cd confoo2026
 uv sync
 uv run confoo
